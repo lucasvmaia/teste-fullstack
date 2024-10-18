@@ -1,0 +1,57 @@
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body {
+
+height: 100vh;
+margin: 0;
+
+}
+header{
+    background: green;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+.bolas {
+    display: flex;
+justify-content: center;
+align-items: center;
+gap: 15px; /* Espaçamento entre as bolas */
+margin: 50px;
+}
+
+.bola {
+width: 70px; /* Largura da bola */
+height: 70px; /* Altura da bola */
+background-color: green; /* Cor da bola */
+border-radius: 50%; /* Borda arredondada para criar a forma de bola */
+display: flex;
+align-items: center; /* Centraliza verticalmente */
+justify-content: center; /* Centraliza horizontalmente */
+color: white; /* Cor do texto */
+font-weight: bold; /* Estilo do texto em negrito */
+font-size: 21px; /* Tamanho da fonte */
+}
+.titulo-premio{
+text-align: center;
+}
+table {
+border-collapse: collapse;
+width: 100%;
+}
+
+caption {
+font-weight: bold;
+margin-bottom: 10px;
+}
+
+th, td {
+border: 1px solid #ccc;
+padding: 10px;
+text-align: center;
+}
+
+th{
+color: green;
+}
